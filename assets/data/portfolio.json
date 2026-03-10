@@ -1,0 +1,129 @@
+{
+  "aboutMe": "Highly skilled and result-oriented Senior Java Developer with over <strong>5 years of experience</strong>, specializing in building scalable, high-performance systems in banking domain. Proven expertise in <strong>Java 8, Spring Boot, Microservices</strong> and <strong>REST APIs</strong>, with strong focus on optimizing system performance and architectural design.",
+  
+  "experiences": [
+    {
+      "date": "2025-2026",
+      "title": "Senior Software Engineer",
+      "company": "Edgeverve System Ltd",
+      "companyLink": "https://www.edgeverve.com/",
+      "companyDescription": "An Infosys subsidiary, accelerates enterprise-wide transformations with leading Applied AI.",
+      "points": [
+        "<strong>Orchestrated</strong> the transition from monolithic application to highly scalable microservice architecture using Spring Boot and RESTful APIs, dramatically enhancing system modularity and horizontal scaling capabilities.",
+        "<strong>Centralized</strong> access control by implementing Spring Cloud Gateway for all service routes, integrating custom JWT validation flter to secure microservice communication.",
+        "<strong>Collaborated</strong> with cross-functional teams, ensuring seamless integration of APIs and microservices, which reduced deployment failures by 50% through robust CI/CD pipelines using Jenkins.",
+        "<strong>Mentored</strong> 3 junior developers through comprehensive code reviews, establishing high coding standards and providing preventative architectural solutions that guaranteed high code quality and seamless integration."
+      ]
+    },
+    {
+      "date": "2021-2025",
+      "title": "System Engineer",
+      "company": "TCS",
+      "companyLink": "https://www.tcs.com/",
+      "companyDescription": "India's no 1 IT service based firm",
+      "points": [
+        "<strong>Developed</strong> RESTful APIs using Spring Boot, improving application performance by 40%, making existing implementations leaner and supporting over 3,000 concurrent users.",
+        "<strong>Enhanced</strong> existing Create Catalog Automation product, reducing 80% manual effort of creating new catalogs.",
+        "<strong>Achieved</strong> Reject Report Generation Service, reducing manual effort by 70% and generated over 100+ reports per day.",
+        "<strong>Documented</strong> development processes by creating comprehensive guides that improved onboarding efficiency for new team members."
+      ]
+    },
+    {
+      "date": "2020-2021",
+      "title": "Associate Developer",
+      "company": "ROITECH",
+      "companyLink": "https://www.roitech.biz/",
+      "companyDescription": "A SAP software consultancy start-up firm",
+      "points": [
+        "<strong>Developed</strong> user-friendly educational platform app using SAPUI5, JavaScript, and HTML/CSS.",
+        "<strong>Enhanced</strong> user engagement through responsive design and interactive features, supporting over 1000 active users.",
+        "<strong>Implemented</strong> test-driven development (TDD) approach to ensure code quality and efficiency.",
+        "<strong>Designed</strong> and executed test plans and test cases including regression, performance and functionality tests.",
+        "<strong>Reduced</strong> downtime and improved productivity through rigorous testing and continuous improvement."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "User Service api",
+      "link": "https://github.com/ksb0896/users-profile-service",
+      "date": "December 2025"
+    },
+    {
+      "title": "Profile Photo Service api",
+      "link": "https://github.com/ksb0896/profile-photo-service",
+      "date": "December 2025"
+    },
+    {
+      "title": "Clips App",
+      "link": "https://clips-deploy.web.app/",
+      "date": "July 2023"
+    }
+  ],
+
+  "education": [
+    {
+      "school": "Narula Insitute of Technology",
+      "degree": "Bachelor of Technology",
+      "major": "Electronics & Instrumentation",
+      "years": "2015-2019"
+    },
+    {
+      "school": "Sri Chaitanya",
+      "degree": "Higher Secondary",
+      "major": "Physics, Chemestry, Mathematics & CS",
+      "years": "2013-2015"
+    },
+    {
+      "school": "St. Xavier's Institution",
+      "degree": "Secondary",
+      "major": "Science, Mathematics, CS & History",
+      "years": "2005-2013"
+    }
+  ],
+
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": "Java, SQL"
+    },
+    {
+      "category": "Database Used",
+      "items": "SQL, Postgresql, Mongodb"
+    },
+    {
+      "category": "Others",
+      "items": "Microservice, Redis, Docker, Gen AI"
+    },
+    {
+      "category": "Framework Knowledge",
+      "items": "Spring Boot, Spring Web, Spring REST, Hibernate ORM, Nodejs"
+    },
+    {
+      "category": "Dev Tools",
+      "items": "Eclipse, Intellij, GitLab, Git, Jira, Jenkins, Postman, Swagger UI"
+    }
+  ],
+
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kushal-bhowmick-3b768168/",
+      "name": "Kushal Bhowmick",
+      "icon": "fa-linkedin"
+    },
+    {
+      "platform": "WhatsApp",
+      "url": "https://wa.me/919433822257",
+      "name": "Kushal Bhowmick",
+      "icon": "fa-whatsapp"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/ksb0896",
+      "name": "ksb0896",
+      "icon": "fa-github"
+    }
+  ]
+}
