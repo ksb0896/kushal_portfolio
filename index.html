@@ -218,24 +218,24 @@
     initMap();
   </script>
   <!-- scripts --end -->
-   <script>
-   document.addEventListener("DOMContentLoaded", () => {
-    fetch('./portfolio.json')
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch('./portfolio.json')
         .then(response => {
-            if (!response.ok) throw new Error("Could not load portfolio data");
-            return response.json();
+          if (!response.ok) throw new Error("Could not load portfolio data");
+          return response.json();
         })
         .then(data => {
-            // Inject About Me
-            const aboutMeContainer = document.getElementById('about-me-content');
-            if (aboutMeContainer) {
-                aboutMeContainer.innerHTML = `<p>${data.aboutMe}</p>`;
-            }
-            // Add your experience mapping logic here
+          // Inject About Me
+          const aboutMeContainer = document.getElementById('about-me-content');
+          if (aboutMeContainer) {
+            aboutMeContainer.innerHTML = `<p>${data.aboutMe}</p>`;
+          }
+          // Add your experience mapping logic here
         })
         .catch(error => console.error("Error fetching JSON:", error));
-});
-   </script>
+    });
+  </script>
 
 </body>
 

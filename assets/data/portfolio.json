@@ -1,6 +1,5 @@
 {
   "aboutMe": "Highly skilled and result-oriented Senior Java Developer with over <strong>5 years of experience</strong>, specializing in building scalable, high-performance systems in banking domain. Proven expertise in <strong>Java 8, Spring Boot, Microservices</strong> and <strong>REST APIs</strong>, with strong focus on optimizing system performance and architectural design.",
-  
   "experiences": [
     {
       "title": "Senior Software Engineer",
@@ -43,7 +42,6 @@
       ]
     }
   ],
-
   "projects": [
     {
       "title": "User Service api",
@@ -61,7 +59,6 @@
       "date": "July 2023"
     }
   ],
-
   "education": [
     {
       "school": "Narula Insitute of Technology",
@@ -82,7 +79,6 @@
       "years": "2005-2013"
     }
   ],
-
   "skills": [
     {
       "category": "Programming Languages",
@@ -105,7 +101,6 @@
       "items": "Eclipse, Intellij, GitLab, Git, Jira, Jenkins, Postman, Swagger UI"
     }
   ],
-
   "socialLinks": [
     {
       "platform": "LinkedIn",
