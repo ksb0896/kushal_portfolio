@@ -3,8 +3,8 @@
   
   "experiences": [
     {
-      "date": "2025-2026",
       "title": "Senior Software Engineer",
+      "date": "2025-2026",
       "company": "Edgeverve System Ltd",
       "companyLink": "https://www.edgeverve.com/",
       "companyDescription": "An Infosys subsidiary, accelerates enterprise-wide transformations with leading Applied AI.",
@@ -16,8 +16,8 @@
       ]
     },
     {
-      "date": "2021-2025",
       "title": "System Engineer",
+      "date": "2021-2025",
       "company": "TCS",
       "companyLink": "https://www.tcs.com/",
       "companyDescription": "India's no 1 IT service based firm",
@@ -29,8 +29,8 @@
       ]
     },
     {
-      "date": "2020-2021",
       "title": "Associate Developer",
+      "date": "2020-2021",
       "company": "ROITECH",
       "companyLink": "https://www.roitech.biz/",
       "companyDescription": "A SAP software consultancy start-up firm",
