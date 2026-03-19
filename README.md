@@ -1,4 +1,4 @@
-# Kushal's Portfolio - Automated Version
+# Portfolio - Automated Version
 
 Welcome! This portfolio has been **fully automated** to make updates easy and error-proof. No HTML coding required!
 
@@ -7,8 +7,7 @@ Welcome! This portfolio has been **fully automated** to make updates easy and er
 ## 📖 Documentation
 
 Choose the right guide based on what you need:
-
-### 👤 **I'm Kushal and want to update my portfolio**
+<!-- ### 👤 **I'm Kushal and want to update my portfolio** -->
 **📄 Read**: [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
 - 2-minute quick start
 - Common update templates
@@ -276,16 +275,6 @@ Add new object with: title, link, date
 
 ---
 
-## 🤝 For Team Members / Future Maintainers
-
-If someone else needs to maintain this:
-
-1. **First**, have them read [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
-2. **Then**, have them read [PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md) as needed
-3. **If coding**: Refer to [TECHNICAL_OVERVIEW.md](TECHNICAL_OVERVIEW.md)
-
----
-
 ## 📞 Support Guide
 
 **When Things Break:**
@@ -297,17 +286,6 @@ If someone else needs to maintain this:
 | Styling broken | CSS syntax | stylesheet.css |
 | Layout changed | HTML structure | TECHNICAL_OVERVIEW.md |
 | Don't understand JSON | Format rules | QUICK_REFERENCE.md |
-
----
-
-## 🎓 Learning Path
-
-**New to this automation?** Follow this path:
-
-1. **5 min**: Skim this README
-2. **10 min**: Read [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
-3. **15 min**: Try making a small change to portfolio.json
-4. **As needed**: Read [PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md) for details
 
 ---
 
@@ -340,21 +318,6 @@ If someone else needs to maintain this:
 > **Golden Rule**: Only edit `assets/data/portfolio.json`
 > 
 > Save → Refresh → Done! 🚀
-
----
-
-## 🔗 Links
-
-- **Portfolio**: [https://ksb0896.github.io/kushal_portfolio/](https://ksb0896.github.io/kushal_portfolio/)
-- **GitHub**: [https://github.com/ksb0896](https://github.com/ksb0896)
-
----
-
-**Ready to get started?** → Open [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
-
-**Questions?** → Check [PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)
-
-**Want technical details?** → Read [TECHNICAL_OVERVIEW.md](TECHNICAL_OVERVIEW.md)
 
 ---
 
