@@ -9,6 +9,10 @@
   <meta name="google" content="notranslate" />
   <meta content="portfolio-page" name="ksb96">
 
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#007bff">
+  <link rel="apple-touch-icon" href="./assets/profile-photo.ico">
+
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <!-- Disable tap highlight on IE -->
@@ -28,7 +32,7 @@
 <body class="">
 
   <!-- header content -->
-  <div class="background-color-layer" style="background-image: url('assets/images/img-01.jpg')"></div>
+  <div class="background-color-layer" style="background-image: url('./assets/images/storybook.jpg')"></div>
   <main class="content-wrapper">
     <header class="white-text-container section-container">
       <div class="text-center" style="padding-left: 50px;">
@@ -218,24 +222,7 @@
     initMap();
   </script>
   <!-- scripts --end -->
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      fetch('./portfolio.json')
-        .then(response => {
-          if (!response.ok) throw new Error("Could not load portfolio data");
-          return response.json();
-        })
-        .then(data => {
-          // Inject About Me
-          const aboutMeContainer = document.getElementById('about-me-content');
-          if (aboutMeContainer) {
-            aboutMeContainer.innerHTML = `<p>${data.aboutMe}</p>`;
-          }
-          // Add your experience mapping logic here
-        })
-        .catch(error => console.error("Error fetching JSON:", error));
-    });
-  </script>
+  <!-- Portfolio data is loaded by main.js from ./assets/data/portfolio.json -->
 
 </body>
 
