@@ -1,5 +1,5 @@
 // Portfolio Data Renderer
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Load portfolio data from JSON
   fetch('./assets/data/portfolio.json')
     .then(response => {
@@ -29,7 +29,7 @@ function renderAboutMe(content) {
 function renderExperiences(experiences) {
   const container = document.getElementById('experiences-container');
   if (!container) return;
-  
+
   container.innerHTML = experiences.map(exp => `
     <div class="work-experience">
       <small class="date">${exp.date}</small>
@@ -43,7 +43,7 @@ function renderExperiences(experiences) {
 function renderProjects(projects) {
   const container = document.getElementById('projects-container');
   if (!container) return;
-  
+
   container.innerHTML = `<div class="row">
     ${projects.map(proj => `
       <div class="col-md-4">
@@ -58,7 +58,7 @@ function renderProjects(projects) {
 function renderEducation(education) {
   const container = document.getElementById('education-container');
   if (!container) return;
-  
+
   container.innerHTML = `<div class="row">
     ${education.map(edu => `
       <div class="col-md-4">
@@ -77,7 +77,7 @@ function renderEducation(education) {
 function renderSkills(skills) {
   const container = document.getElementById('skills-container');
   if (!container) return;
-  
+
   container.innerHTML = `<div class="row">
     ${skills.map(skill => `
       <div class="${skill.category === 'Dev Tools' ? 'col-md-6' : 'col-md-4'}">
@@ -94,7 +94,7 @@ function renderSkills(skills) {
 function renderSocialLinks(links) {
   const container = document.getElementById('social-links-container');
   if (!container) return;
-  
+
   container.innerHTML = `<div class="row">
     ${links.map(link => `
       <div class="col-md-3">
@@ -112,19 +112,19 @@ function renderSocialLinks(links) {
 function scrollRevelation(selector) {
   // This function handles scroll reveal animations for elements
   const elements = document.querySelectorAll(selector);
-  
+
   const revealElement = () => {
     elements.forEach(element => {
       const elementTop = element.getBoundingClientRect().top;
       const elementBottom = element.getBoundingClientRect().bottom;
-      
+
       if (elementTop < window.innerHeight && elementBottom > 0) {
         element.style.opacity = '1';
         element.style.transform = 'translateY(0)';
       }
     });
   };
-  
+
   // Trigger on load and scroll
   window.addEventListener('scroll', revealElement);
   revealElement();
