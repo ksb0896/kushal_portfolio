@@ -1,13 +1,13 @@
 const CACHE_NAME = "ksb-portfolio";
 const assets =[
-  '/',
-  '/index.html',
-  '/stylesheet.css',
-  '/scripts/main.js',
-  '/assets/profile-photo.ico',
-  '/assets/profile-photo.svg',
-  '/assets/images/storybook.jpg',
-  '/assets/data/portfolio.json'
+  './',
+  './index.html',
+  './stylesheet.css',
+  './scripts/main.js',
+  './assets/profile-photo.ico',
+  './assets/profile-photo.svg',
+  './assets/images/storybook.jpg',
+  './assets/data/portfolio.json'
 ]
 
 // cache

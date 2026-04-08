@@ -2,7 +2,8 @@
   "name": "Portfolio",
   "short_name": "KSB Portfolio",
   "description": "Professional portfolio",
-  "start_url": "index.html",
+  "start_url": "./index.html",
+  "scope":"./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
@@ -10,12 +11,12 @@
   "categories": ["productivity", "business"],
   "icons": [
     {
-      "src": "/assets/profile-photo.png",
+      "src": "assets/profile-photo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
         {
-      "src": "/assets/profile-photo.png",
+      "src": "assets/profile-photo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
