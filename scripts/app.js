@@ -6,7 +6,7 @@ const registerServiceWorker = async () => {
   if (!('serviceWorker' in navigator))  return;
 
   try {
-    const swPath = isLocal ? './serviceWorker.js' : `/${repoName}/serviceWorker.js`;
+    const swPath = './serviceWorker.js';
 
     const registration = await navigator.serviceWorker.register(swPath);
     
